@@ -20,6 +20,10 @@ Install the gem by executing:
 gem install symfony-regenerate-secret-key
 ```
 
+### Usage
+
+Simply run `symfony-regenerate-secret-key` on your command line without any flags.
+
 ## Contributing
 
 1. Fork it!

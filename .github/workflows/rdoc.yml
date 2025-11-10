@@ -1,0 +1,40 @@
+name: Generate Documentation
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    types: closed
+    branches: [ "master" ]
+
+jobs:
+  build:
+    name: RDoc
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up Ruby 3.2
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.2'
+
+    - name: Set Up Environment
+      run: |
+        gem install bundler
+        bundle config path vendor/bundle
+        bundle install
+
+    - name: Build Documentation
+      run: rdoc
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./doc
