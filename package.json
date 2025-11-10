@@ -1,16 +1,16 @@
 {
-  "name": "{{PKG_REPO}}",
-  "description": "{{PKG_DESC}}",
-  "version": "{{PKG_VERS}}",
+  "name": "symfony-regenerate-secret-key",
+  "description": "Tinsy tiny gem to create a new SECRET_KEY value for Symfony apps :locked_with_key:",
+  "version": "0.1.0",
   "maintainers": [
     {
-      "name": "{{PKG_AUTHOR}}",
-      "email": "{{PKG_USEREMAIL}}",
-      "web": "{{PKG_USERURI}}"
+      "name": "Igor Padoim",
+      "email": "igorpadoim@gmail.com",
+      "web": "https://nereare.com/"
     }
   ],
   "bugs": {
-    "web": "https://github.com/{{PKG_USERNAME}}/{{PKG_REPO}}/issues"
+    "web": "https://github.com/Nereare/symfony-regenerate-secret-key/issues"
   },
-  "license": "{{PKG_LICENSE_SPDX}}"
+  "license": "WTFPL"
 }

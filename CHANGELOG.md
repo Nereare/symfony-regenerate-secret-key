@@ -1,4 +1,4 @@
-# [{{PKG_NAME}}](https://github.com/{{PKG_USERNAME}}/{{PKG_REPO}}) Changelog
+# [`SECRET_KEY` Regenerator for Symfony](https://github.com/Nereare/symfony-regenerate-secret-key) Changelog
 
 All notable changes to this project will be documented in this file.
 
@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Code of Conduct from [Contributor Covenant](https://www.contributor-covenant.org/).
-- [{{PKG_LICENSE_NAME}}](LICENSE.md).
+- [Do What The F*ck You Want To Public License](LICENSE.md).
 - Git metafiles (`.gitignore` and `.gitattributes`).
 - GitHub templates:
   - Issues;
