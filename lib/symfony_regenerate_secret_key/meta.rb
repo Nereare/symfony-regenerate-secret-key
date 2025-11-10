@@ -8,7 +8,7 @@ module SymfonyRegenerateSecretKey
   # Gem description
   DESCRIPTION  = 'Tinsy tiny gem to create a new SECRET_KEY value for Symfony apps 🔐'
   # Gem version
-  VERSION      = '0.1.0'
+  VERSION      = '1.0.0'
   # Gem author name
   AUTHOR       = 'Igor Padoim'
   # Gem author email

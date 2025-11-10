@@ -33,6 +33,8 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'irb', '~> 1.15', '>= 1.15.2'
   spec.add_dependency 'pastel', '~> 0.8'
+  spec.add_dependency 'tty-exit', '~> 0.1'
+  spec.add_dependency 'tty-option', '~> 0.3'
 
   spec.add_development_dependency 'rake', '~> 13.3'
   spec.add_development_dependency 'rdoc', '~> 6.15'

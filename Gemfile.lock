@@ -4,6 +4,8 @@ PATH
     symfony_regenerate_secret_key (0.1.0)
       irb (~> 1.15, >= 1.15.2)
       pastel (~> 0.8)
+      tty-exit (~> 0.1)
+      tty-option (~> 0.3)
 
 GEM
   remote: https://rubygems.org/
@@ -80,6 +82,8 @@ GEM
     stringio (3.1.7)
     tsort (0.2.0)
     tty-color (0.6.0)
+    tty-exit (0.1.0)
+    tty-option (0.3.0)
     unicode-display_width (3.2.0)
       unicode-emoji (~> 4.1)
     unicode-emoji (4.1.0)
