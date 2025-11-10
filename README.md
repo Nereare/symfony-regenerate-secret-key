@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/github/license/Nereare/symfony-regenerate-secret-key.svg)](LICENSE.md)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE-OF-CONDUCT.md)
 
-Tinsy tiny gem to create a new SECRET_KEY value for Symfony apps :locked_with_key:
+Tinsy tiny gem to create a new SECRET_KEY value for Symfony apps 🔐
 
 ## Installing
 
