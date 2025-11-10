@@ -14,11 +14,11 @@ Tinsy tiny gem to create a new SECRET_KEY value for Symfony apps 🔐
 
 ## Installing
 
-<!--
-TODO Set installation instructions
-BODY If there is some installation method, define it on the [README file](README.md).
--->
-1. Foo.
+Install the gem by executing:
+
+```bash
+gem install symfony-regenerate-secret-key
+```
 
 ## Contributing
 
